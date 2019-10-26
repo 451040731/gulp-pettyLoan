@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+/*----front---*/
+.banner{ width: 100%; padding: .54rem .2rem .22rem; background: #fff url("../images/default/banner.png") no-repeat; background-size: 100%; }
+.repayment{ text-align: center; color: #fff;}
+.repayment h4{ font-size: .26rem;}
+.repayment h3{ margin-bottom: .2rem; font-family: DINMEDIUM; font-size: .9rem;}
+.repayment p{ font-size: .24rem;}
+.repayment p em{ padding: 0 .1rem; font-family: DINMEDIUM;}
+.repayment a{ display: inline-block; margin-top: .3rem; width: 4.5rem; height: 1rem; text-align: center; line-height: 1rem; font-size: .36rem; background-color: #fff; color: #23b7ff; border-radius: .5rem;}
+.repayment-list{ margin-top: .7rem; padding: .28rem 0; background: rgba(255,255,255,.9); border-radius: .1rem; box-shadow: 0px 03rem .3rem .01rem rgba(222, 230, 239, 0.8); -webkit-box-shadow: 0px .03rem .3rem .01rem rgba(222, 230, 239, 0.8);}
+.repayment-list li{ text-align: center;}
+.repayment-list li:first-child{ border-right: solid 1px #d7d7d7;}
+.repayment-list li h3{ line-height: .6rem; font-family: DINMEDIUM; font-size: .36rem; color: #222;}
+.repayment-list li p{ line-height: .4rem; font-size: .24rem; color: #999;}
+.swiper-index{ margin-top: .3rem;}
+.swiper-index .swiper-wrapper{ height: 2rem;}
+.swiper-index .swiper-pagination{ position: static;}
+.swiper-index .swiper-pagination .swiper-pagination-bullet{ width: .4rem; height: .1rem; border-radius: .05rem;}
+.swiper-index .swiper-pagination .swiper-pagination-bullet-active{ background-color: #23b7ff;}
+/* 帮助中心 */
+.help{ padding: 0 .2rem;}
+.help h3{ line-height: .9rem; font-size: .3rem;}
+.help-list li{ margin-bottom: .2rem; background-color: #fff; border-radius: .1rem;}
+.help-title{ position: relative; padding: .3rem; font-size: .3rem;}
+.help-title:after{ display: inline-block; content: ""; position: absolute;top: 50%; right: .3rem; width: .25rem; height: .14rem; -webkit-transform: translateY(-50%); transform: translateY(-50%); -webkit-transition: .3s; transition: .3s; background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAOCAYAAADaOrdAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjkxRUY3NkIwMzE2MjExRThBNUFBQ0E3OUI2MzI3MTM5IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjkxRUY3NkIxMzE2MjExRThBNUFBQ0E3OUI2MzI3MTM5Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTFFRjc2QUUzMTYyMTFFOEE1QUFDQTc5QjYzMjcxMzkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTFFRjc2QUYzMTYyMTFFOEE1QUFDQTc5QjYzMjcxMzkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6GjNeUAAAAvUlEQVR42qzUQQrCMBCF4ZgGdx7AQ3gVLyDoWly5FMS1gktBshFcexpP4SGs6BuYgoR28rQZ+EughY80tCHG6DBzNEZH9HJlZoh26BFwGaALqtAELQpAAtzQFNUelzc66c0ZuipYApA5eF2s0bkAlAJ7tG0Q2c2qJ9QGbGThvx7qA3UCKfIvZAJtyK9QFuhCWIgCZILxGhpIZqmQ0++oYoEcYkEjFmAQC6IA60xyZ0QD7E5S6I6e+r+j5iPAAHO4PMKyVRgbAAAAAElFTkSuQmCC'); background-size: 100%;}
+.help-content{ display: none; line-height: .4rem; padding: .3rem; font-size: .26rem; color: #222; border-top: solid 1px #e9e9e9;}
+.help-list li.active .help-content{ display: block;}
+.help-list li.active .help-title:after{ -webkit-transform: rotate(-180deg); transform: rotate(-180deg);}

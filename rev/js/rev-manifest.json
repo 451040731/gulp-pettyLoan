@@ -1,0 +1,13 @@
+{
+  "js/jquery.min.js": "js/jquery-13c0a5055c.min.js",
+  "js/plugin/artTemplate/template-web.js": "js/plugin/artTemplate/template-web-e0c328b188.js",
+  "js/plugin/iosSelect/areaData_v2.js": "js/plugin/iosSelect/areaData_v2-da9e467a0b.js",
+  "js/plugin/iosSelect/iosSelect.js": "js/plugin/iosSelect/iosSelect-b5c5e4b547.js",
+  "js/plugin/iosSelect/selectData.js": "js/plugin/iosSelect/selectData-59a522c594.js",
+  "js/plugin/iscroll/iscroll.js": "js/plugin/iscroll/iscroll-cd5bab3f42.js",
+  "js/plugin/iscroll/pullToRefresh.js": "js/plugin/iscroll/pullToRefresh-5187392836.js",
+  "js/plugin/layer/mobile/layer.js": "js/plugin/layer/mobile/layer-a857d4c8a1.js",
+  "js/plugin/swiper/swiper.min.js": "js/plugin/swiper/swiper-ab83c52f43.min.js",
+  "js/plugin/validform/validform.min.js": "js/plugin/validform/validform-34f2d680da.min.js",
+  "js/rem.js": "js/rem-4a8b3bdf03.js"
+}
